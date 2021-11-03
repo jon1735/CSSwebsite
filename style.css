@@ -166,7 +166,7 @@ body {
   font-size: 40px;
 }
 
-.card {
+div .flex-card-item {
   border: black;
   background: rgb(51, 111, 119);
   width: 471.07px;
@@ -176,7 +176,27 @@ body {
   
 }
 
-.content-container {
+div .flex-card-item-1 {
+  border: black;
+  background: rgb(97, 184, 198);
+  width: 471.07px;
+  height: 471.07px;
+  color: white;
+  margin-left: 100px;
+  
+}
+
+div .flex-card-item-2 {
+  border: black;
+  background: rgb(9, 16, 46);
+  width: 471.07px;
+  height: 471.07px;
+  color: white;
+  margin-left: 100px;
+  
+}
+
+.flex-content-container {
   left: 10px;
   padding-left: 10px;
 }
