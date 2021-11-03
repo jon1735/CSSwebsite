@@ -1,0 +1,128 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.announcement-bar {
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  background-color: rgb(249, 65, 92);
+  padding: 1rem;
+}
+
+video {
+  z-index: -1;
+}
+
+header {
+  position: absolute;
+  top: 81.2px;
+  left: 0;
+  padding: 1rem;
+  width: calc(100% - 2rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: right;
+  color: white;
+}
+
+header img {
+  width: 90px;
+  height: 90px;
+  justify-self: flex-start;
+}
+
+header .flex-item {
+  text-align: right;
+  padding-left: 2.5ww;
+  margin-left: auto;
+  transition: .5s ease;
+}
+
+header .flex-home-item {
+  text-align: right;
+  padding-left: 2.5ww;
+  margin-left: auto;
+  transition: .5s ease;
+  background-color: rgb(249, 65, 92);
+}
+
+header .flex-schedule-item {
+  text-align: right;
+  padding-left: 2.5ww;
+  margin-left: auto;
+  transition: .5s ease;
+  background-color: black;
+}
+
+header .flex-item:hover {
+  transform: translateY(-8px)
+}
+
+@media only screen and (max-width: 707px) {
+  header .flex-item {
+    margin: 1rem auto;
+    width: 80vw;
+    padding: 8rem 0;
+    text-align: center;
+  }
+}
+
+h2 {
+  text-align: center;
+  line-height: 1.2936;
+  font-weight: 500;
+  letter-spacing: 0em;
+  white-space: pre-wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Avenir-Bold';
+  font-size: calc((2.9 - 1) * 1.2vw + 1rem);  
+}
+
+p {
+  text-align: center;
+  white-space: pre-wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: 1rem 0;
+  word-wrap: break-word;
+  font-family: 'Avenir-Light';  
+  font-size: calc((1.5 - 1) * 1.2vw + 1rem);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0em;
+  white-space: pre-wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Avenir-Bold';  
+  font-size: calc((4 - 1) * 1.2vw + 1rem);
+}
+
+.content {
+  width: 75%;
+  display: block;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+.content-container {
+  text-align: center;
+}
+
