@@ -67,7 +67,6 @@ header img {
 header .flex-item {
   text-align: right;
   padding-left: 1.5vw;
-  transition: .5s ease;
 }
 
 header .flex-home-item {
@@ -75,14 +74,12 @@ header .flex-home-item {
   padding-left: 2.5ww;
   margin-left: auto;
   border-radius: 25px;
-  transition: .5s ease;
   background-color: rgb(249, 65, 92);
 }
 
 header .flex-schedule-item {
   text-align: right;
   padding-left: 1.5vw;
-  transition: .5s ease;
   background-color: black;
   border-radius: 25px;
 }
@@ -148,3 +145,47 @@ body {
   text-align: center;
 }
 
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  background-color:white;
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.address-content {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.header-card-text {
+  font-size: 40px;
+}
+
+.card {
+  border: black;
+  background: rgb(51, 111, 119);
+  width: 471.07px;
+  height: 471.07px;
+  color: white;
+  margin-left: 100px;
+  
+}
+
+.content-container {
+  left: 10px;
+  padding-left: 10px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.card-wrapper {
+border: black;
+padding-top: 100px;
+}
