@@ -141,8 +141,12 @@ body {
   text-align: center;
 }
 
-.content-container {
+.sub-info-paragraph {
   text-align: center;
+}
+
+.content-container {
+  justify-content: center;
 }
 
 
@@ -196,7 +200,7 @@ div .flex-card-item-2 {
   
 }
 
-.flex-content-container {
+.flex-card-container {
   left: 10px;
   padding-left: 10px;
 }
